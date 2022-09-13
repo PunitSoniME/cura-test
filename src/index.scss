@@ -1,0 +1,21 @@
+@import "http://fonts.googleapis.com/css?family=Lato:400,700";
+
+body {
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+.react-horizontal-scrolling-menu--arrow-left,
+.react-horizontal-scrolling-menu--arrow-right {
+    align-items: center;
+}
+
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
